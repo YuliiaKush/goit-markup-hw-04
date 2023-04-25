@@ -428,3 +428,23 @@ a {
 .social-list-icon {
   fill: #f4f4fd;
 }
+
+.advantages-item-icon {
+  background-color: var(--white-footer-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+}
+
+.customers-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.customers-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 120px;
+}
