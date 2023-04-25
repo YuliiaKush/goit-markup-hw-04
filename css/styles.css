@@ -320,7 +320,7 @@ a {
   align-items: baseline;
 }
 
-footer-logo-text {
+.footer-logo-text {
   margin-right: 120px;
 }
 
@@ -437,6 +437,21 @@ footer-logo-text {
   background-color: var(--background-button);
 }
 
+.social-footer-link:hover,
+.social-footer-link:focus {
+  background-color: #31d0aa;
+}
+
+.social-footer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--blue-color);
+}
+
 .social-list {
   display: flex;
   justify-content: center;
@@ -499,4 +514,9 @@ footer-logo-text {
 
 .customers-list-icon {
   fill: currentColor;
+}
+
+.customers-list-item {
+  width: calc((100% - 120px) / 6);
+  height: 88px;
 }
