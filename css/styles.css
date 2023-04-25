@@ -456,6 +456,14 @@ a {
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding: 32px 0;
+}
+
+.social-list-footer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding: 32px 0;
 }
 
 .employees-position {
@@ -483,6 +491,7 @@ a {
   border: 1px solid var(--icon-color);
   border-radius: 4px;
   color: var(--icon-color);
+  height: 100%;
 }
 
 .customers-list-link:hover,
