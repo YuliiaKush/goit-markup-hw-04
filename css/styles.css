@@ -150,6 +150,8 @@ a {
 
 .main-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 /* Hero */
@@ -195,6 +197,7 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
 }
 .main-button:hover,
 .main-button:focus {
@@ -222,6 +225,8 @@ a {
 
 .workers-title {
   width: calc((100% - 72px) / 4);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--second-white-color);
 }
@@ -269,6 +274,8 @@ a {
   border: 1px solid transparent;
   color: var(--second-white-color);
   background-color: var(--background-button);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-button {
@@ -426,7 +433,7 @@ a {
 }
 
 .social-list-icon {
-  fill: #f4f4fd;
+  fill: var(--white-footer-color);
 }
 
 .advantages-item-icon {
@@ -435,6 +442,8 @@ a {
   justify-content: center;
   align-items: center;
   height: 112px;
+  border-radius: 4px;
+  margin-bottom: 8px;
 }
 
 .customers-list-link {
@@ -446,5 +455,19 @@ a {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-bottom: 120px;
+}
+
+.section-customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.flex-portfolio {
+  display: block;
+}
+
+.flex-portfolio:hover,
+.flex-portfolio:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
