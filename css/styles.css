@@ -6,6 +6,7 @@
   --background-color: #e5e5e5;
   --background-button: #404bbf;
   --second-white-color: #ffffff;
+  --icon-color: #8e8f99;
 }
 /*колір основного текста - #2E2F42 */
 /* колір тексту #434455 */
@@ -14,6 +15,7 @@
 /* backgraund #E5E5E5 */
 /* синій #404BBF */
 /* білий #FFFFFF */
+/* білий #8e8f99 */
 
 body {
   color: var(--title-text-color);
@@ -215,7 +217,7 @@ a {
   text-align: center;
   letter-spacing: 0.02em;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
   text-transform: capitalize;
 }
 .section-team {
@@ -445,7 +447,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid var(--icon-color);
+  border-radius: 4px;
+  color: var(--icon-color);
 }
+
 .customers-list {
   display: flex;
   justify-content: center;
