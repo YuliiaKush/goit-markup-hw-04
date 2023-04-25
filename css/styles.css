@@ -347,7 +347,6 @@ a {
 
 .container-name {
   padding: 32px 0;
-  padding-left: 16px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-left-radius: 4px;
@@ -429,7 +428,7 @@ a {
 
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
-  fill: var(--second-white-color);
+  fill: #f4f4fd;
 }
 
 .social-list-link:hover,
