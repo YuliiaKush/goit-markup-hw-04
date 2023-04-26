@@ -195,11 +195,12 @@ a {
     ),
     url(../images/img-name.jpg);
   padding: 188px 0;
-  display: block;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  height: 600px;
+  margin: 0 auto;
 }
 .main-button:hover,
 .main-button:focus {
@@ -455,14 +456,12 @@ a {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding: 32px 0;
 }
 
 .social-list-footer {
   display: flex;
   justify-content: center;
   gap: 16px;
-  padding: 32px 0;
 }
 
 .employees-position {
