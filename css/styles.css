@@ -455,7 +455,7 @@ a {
 .social-list {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .social-list-footer {
