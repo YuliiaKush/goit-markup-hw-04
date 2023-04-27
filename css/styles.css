@@ -486,10 +486,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid var(--icon-color);
+  border: 1px solid currentColor;
   border-radius: 4px;
   color: var(--icon-color);
   height: 100%;
+  width: 100%;
 }
 
 .customers-list-link:hover,
